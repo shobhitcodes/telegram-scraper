@@ -1,0 +1,33 @@
+{
+  "name": "telegram-scraper",
+  "version": "1.0.0",
+  "description": "simple telegram scraper to scrape user groups",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhitcodes/telegram-scraper.git"
+  },
+  "keywords": [
+    "telegram",
+    "scraper",
+    "telegram",
+    "groups"
+  ],
+  "author": "Shobhit Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shobhitcodes/telegram-scraper/issues"
+  },
+  "homepage": "https://github.com/shobhitcodes/telegram-scraper#readme",
+  "dependencies": {
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
