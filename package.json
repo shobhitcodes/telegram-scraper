@@ -25,6 +25,13 @@
   },
   "homepage": "https://github.com/shobhitcodes/telegram-scraper#readme",
   "dependencies": {
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.13.0",
+    "morgan": "^1.10.0",
     "telegram": "^2.26.22"
   },
   "devDependencies": {
